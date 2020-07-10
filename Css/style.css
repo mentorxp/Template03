@@ -15,6 +15,8 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    max-width: 900px;
+
 }
 
 header {
@@ -22,7 +24,14 @@ header {
     color: hotpink;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: darkslategrey 3px solid;
+    border-bottom: hotpink 3px solid;
+}
+
+header .logoWb{
+    height: 100%;
+    width: 100%;
+    max-width: 200px;
+    max-height: 100px;
 }
 
 header a{
@@ -56,4 +65,49 @@ header #branding h1{
 header nav{
     float: right;
     margin-top: 15px;
+}
+
+
+header .highlight, header .current a{
+    color: hotpink;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: hotpink;
+    font-weight: bold;
+}
+
+
+#showcase {
+    
+
+   max-width: 100%;
+   height: auto;
+    width: fit-content;
+    min-height: 400px;   
+    background: url('../img/slide1.jpg') no-repeat center;
+    text-align: center;
+    background-size: cover;
+    
+    
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: red;
+    
+
+}
+
+
+#showcase {
+    color: hotpink;
+}
+
+#newsletter{
+    padding: 15px;
+    background-color: grey;
 }
